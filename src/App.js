@@ -1,11 +1,11 @@
-import DataFetching from './components/DataFetching';
+import React from 'react';
 
-import './App.css';
+import CounterTwo from './components/useReducer/CounterTwo';
 
 function App() {
   return (
     <div className='App'>
-      <DataFetching />
+      <CounterTwo />
     </div>
   );
 }
